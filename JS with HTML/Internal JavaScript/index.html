@@ -1,0 +1,29 @@
+<!-- Internal JavaScript
+
+Create an HTML file with a div element and a button. 
+Write an internal JavaScript function that changes the div's background color to a random color when the button is clicked.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internal JavaScript</title>
+    <script>
+      function changeBackgroundColor() {
+        let div = document.getElementById("myDiv");
+
+        div.style.backgroundColor = "red";
+      }
+    </script>
+  </head>
+  <body>
+    <div
+      id="myDiv"
+      style="width: 100px; height: 100px; border: 1px solid black"
+    ></div>
+    <button onclick="changeBackgroundColor()">Click me</button>
+  </body>
+</html>
