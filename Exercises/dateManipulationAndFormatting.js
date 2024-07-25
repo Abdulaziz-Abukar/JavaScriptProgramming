@@ -18,6 +18,6 @@ function dateFormatter(date) {
 }
 
 
-let myBday = new Date(2000, 01, 27);
+let myBday = new Date(2000, 1, 27);
 let result = dateFormatter(myBday);
 console.log(result);
